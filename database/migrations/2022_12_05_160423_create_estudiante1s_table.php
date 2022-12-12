@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('nomEst', 50);
             $table->string('apeEst', 50);
             $table->date('fnaEst');
-            $table->integer('turMat',);
+            $table->integer('turMat');
             $table->integer('senMat');
             $table->integer('estMat');
             $table->timestamps();

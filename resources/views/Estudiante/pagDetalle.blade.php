@@ -10,7 +10,7 @@
     <p>Codigo:                  {{$xDetAlumnos->codEst}}</p>
     <p>Apellidos y Nombres:     {{$xDetAlumnos->apeEst}}, {{$xDetAlumnos->nomEst}}</p>
     <p>Fecha de Nacimiento:     {{$xDetAlumnos->fnaEst}}</p>
-    <p>Turno:                   {{$xDetAlumnos->turnEst}}</p>
-    <p>Semestre:                {{$xDetAlumnos->senEst}}</p>
-    <p>Estado de Matricula:     {{$xDetAlumnos->estEst}}</p>
+    <p>Turno:                   {{$xDetAlumnos->turMat}}</p>
+    <p>Semestre:                {{$xDetAlumnos->senMat}}</p>
+    <p>Estado de Matricula:     {{$xDetAlumnos->estMat}}</p>
 @endsection
